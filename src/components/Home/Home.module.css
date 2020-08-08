@@ -1,0 +1,48 @@
+.CarImage {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
+}
+
+.Car {
+    height: 150px;
+    width: 250px;
+}
+
+.Location {
+    color: #32b298;
+}
+
+.Title {
+    display: flex;
+    align-items: center;
+    font-size: 1.9rem;
+    font-weight: bold;
+    color: #3c3c3b;
+    flex-direction: column;
+    
+}
+
+.Title h2 {
+    margin-top: -35px;
+}
+
+.Title h5 {
+    margin-top: -15px;
+    color: #3c3c3b;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.InsuranceText {
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    align-items: center;
+}
+
+.Insurance {
+    height: 75px;
+    width: 75px;
+}

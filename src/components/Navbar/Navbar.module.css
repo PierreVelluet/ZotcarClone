@@ -1,0 +1,83 @@
+.NavbarTop {
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.NavbarBottom {
+    height: 40px;
+    background-color: #32b298;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    font-size: 1rem;
+    font-family: 'Roboto';
+    font-weight: 400;
+}
+
+.PhoneIcon {
+    margin-left: 5px;
+    color: darkred;
+}
+
+.LogoContainer {
+    display: flex;
+    align-items: center;
+    font-size: 1.1rem;
+    margin-left: 10%;
+    font-family: 'Roboto';
+}
+
+.Logo {
+    font-size: 45px;
+    margin-right: 5px;
+
+}
+
+.LogoContainer a {
+    color: black;
+    text-decoration: none;
+}
+
+.Logo a {
+    color: #32b298;
+}
+
+.SectionItems {
+    display: flex;
+    align-items: center;
+    margin-right: 10%;
+}
+
+.ListItem a {
+    color: black;
+    text-decoration: none;
+    margin-right: 35px;
+    font-size: 0.8rem;
+    font-weight: 800;
+}
+
+.ListItem a:hover {
+    color: red;
+}
+
+.RentACar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: #32b298;
+    padding:5px 10px 5px 10px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.CarLogo {
+    font-size: 1.2rem;
+    margin-right: 10px;
+}

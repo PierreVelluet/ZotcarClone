@@ -1,0 +1,20 @@
+.SearchFieldContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.InputContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.DeleteSearch {
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: center;
+}
+
+.DeleteSearch:hover {
+    cursor: pointer;
+}
