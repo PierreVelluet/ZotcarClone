@@ -1,0 +1,47 @@
+.SmartphoneSection {
+    display: flex;
+    justify-content: center;
+    margin: 0px 15% 0px 15%;
+}
+
+.SmartphoneImage {
+    height: 500px;
+    width: 50%;
+}
+
+.Text {
+    color: #1D1D1D;
+    width: 50%
+
+}
+.Text h1 {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 4rem;  
+    margin-bottom: 0px;
+}
+
+.ManageLocationText {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    line-height: 1.6rem;
+}
+
+.Description {
+    line-height: 1.6rem;
+    color: #42526E;
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.ColoredText {
+    font-weight: 600;
+    color: #32b298;
+}
+
+.Button {
+    display: flex;
+}

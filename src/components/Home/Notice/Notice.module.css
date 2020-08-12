@@ -1,0 +1,49 @@
+.Notice {
+    margin: 0px 15% 0px 15%;
+}
+
+.Notice h2 {
+    margin-top: 75px;
+    font-size: 2rem;
+    font-weight: 900;
+    color: #091E42
+}
+
+.Notice p {
+    color :#505F79
+}
+
+.ColoredText {
+    color:#32b298;
+    font-weight: 500;
+}
+
+.StarRating {
+    display: flex;
+    align-items: center;
+}
+
+.StarRating p {
+    margin-left: 20px;
+    font-size: 1.4rem;
+    color: #505F79;
+    font-weight: 300;
+    font-family: 'Roboto'
+}
+
+.StarRating a {
+    margin-left: 20px;
+    color:#32b298;
+    font-size: 1.2rem;
+    text-decoration: underline;
+}
+
+.StarIcon {
+    color:#32b298;
+    font-size: 2rem;
+}
+
+.CommentsList {
+    display: flex;
+    justify-content: space-between;
+}

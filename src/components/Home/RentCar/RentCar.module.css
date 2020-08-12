@@ -1,0 +1,35 @@
+.RentCar {
+    margin: 0px 15% 0px 15%;
+}
+
+.RentCar h2 {
+    margin-top: 75px;
+    font-size: 2rem;
+    font-weight: 900;
+    color: #091E42;
+    line-height: 2.6rem;
+}
+
+.RentCar ul {
+    list-style-type: none;
+    padding:0;
+}
+
+.RentCar ul li {
+    line-height: 2.6rem;
+}
+.Description {
+    color: #32b298;
+    font-weight: 600;
+
+}
+
+.Checked {
+    color: #32b298;
+    margin-right:10px;
+}
+
+.CarCardList {
+    display: flex;
+    justify-content: space-between;
+}

@@ -3,6 +3,12 @@ import classes from './Home.module.css';
 import CarImage from '../../image/car.png'
 import InsuranceImage from '../../image/assurance.png'
 import SearchField from './SearchField/SearchFields';
+import CardSection from './CardSection/CardSection';
+import Notice from './Notice/Notice';
+import RentCar from './RentCar/RentCar';
+import CutedImageContainer from './CutedImageContainer/CutedImageContainer';
+import SmartphoneSection from './SmartphoneSection/SmartphoneSection';
+import Accordions from './Accordions/Accordions'
 
 
 
@@ -25,6 +31,12 @@ const Home = () => {
                 Nos locations sont assurées tous risques par la Maif
                 <img className={classes.Insurance} src={InsuranceImage} alt='' />
             </div>
+            <CardSection />
+            <Notice />
+            <RentCar />
+            <CutedImageContainer />
+            <SmartphoneSection />
+            <Accordions />
         </div>
     )
 }

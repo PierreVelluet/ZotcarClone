@@ -1,0 +1,27 @@
+.CardSection {
+    display: flex;
+    justify-content: space-between;
+    margin: 75px 15% 0px 15%;
+}
+
+.CardTop {
+    margin-top: -35px;
+}
+
+.CardSectionText {
+    display: flex;
+    justify-content: center;
+}
+
+.CardSectionText a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.HowItWorcks {
+    text-decoration: underline;
+    color: #32b298;
+    font-size: 1.1rem;
+
+}

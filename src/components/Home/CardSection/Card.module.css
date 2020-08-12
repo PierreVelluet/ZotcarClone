@@ -1,0 +1,29 @@
+.Card {
+    width: 350px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 3rem 4rem rgba(9, 30, 66, 0.1);
+}
+
+.Logo {
+    height: 75px;
+    width: 75px;
+}
+
+.CardTitle {
+    font-weight: 900;
+    margin-top: 0px;
+}
+
+.CardDescription {
+    margin-top: 0px;
+    color: grey;
+}

@@ -1,0 +1,58 @@
+const carsProfile = [
+    {
+        image: 'https://www.auto-moto.com/wp-content/uploads/sites/9/2020/01/peugeot-208-750x410.jpeg',
+        price: 24,
+        carName: 'Volkswagen Polo',
+        location: 'Saint-Pierre',
+        star: 5,
+        photo:'https://images.squarespace-cdn.com/content/v1/56262570e4b0504d6aeebeb1/1446467080252-OKA9SBZ9RWACLIM4OT1N/ke17ZwdGBToddI8pDm48kLsPaqTjviO1P47iG0SOxnB7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmaUzSiviepfuOufnJa7SEDUK-1b2wr9WB-4njHSzjnR8JZDthiNsoGKc2qv34ybdh/Sailor-folio.jpg?format=1500w',
+        name: 'Nathan',
+    },
+    {
+        image: 'https://www.auto-moto.com/wp-content/uploads/sites/9/2020/01/peugeot-208-750x410.jpeg',
+        price: 24,
+        carName: 'Volkswagen Polo',
+        location: 'Saint-Pierre',
+        star: 5,
+        photo:'https://images.squarespace-cdn.com/content/v1/56262570e4b0504d6aeebeb1/1446467080252-OKA9SBZ9RWACLIM4OT1N/ke17ZwdGBToddI8pDm48kLsPaqTjviO1P47iG0SOxnB7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmaUzSiviepfuOufnJa7SEDUK-1b2wr9WB-4njHSzjnR8JZDthiNsoGKc2qv34ybdh/Sailor-folio.jpg?format=1500w',
+        name: 'Nathan',
+    },
+    {
+        image: 'https://www.auto-moto.com/wp-content/uploads/sites/9/2020/01/peugeot-208-750x410.jpeg',
+        price: 24,
+        carName: 'Volkswagen Polo',
+        location: 'Saint-Pierre',
+        star: 5,
+        photo:'https://images.squarespace-cdn.com/content/v1/56262570e4b0504d6aeebeb1/1446467080252-OKA9SBZ9RWACLIM4OT1N/ke17ZwdGBToddI8pDm48kLsPaqTjviO1P47iG0SOxnB7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmaUzSiviepfuOufnJa7SEDUK-1b2wr9WB-4njHSzjnR8JZDthiNsoGKc2qv34ybdh/Sailor-folio.jpg?format=1500w',
+        name: 'Nathan',
+    },
+    {
+        image: 'https://www.auto-moto.com/wp-content/uploads/sites/9/2020/01/peugeot-208-750x410.jpeg',
+        price: 24,
+        carName: 'Volkswagen Polo',
+        location: 'Saint-Pierre',
+        star: 5,
+        photo:'https://images.squarespace-cdn.com/content/v1/56262570e4b0504d6aeebeb1/1446467080252-OKA9SBZ9RWACLIM4OT1N/ke17ZwdGBToddI8pDm48kLsPaqTjviO1P47iG0SOxnB7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmaUzSiviepfuOufnJa7SEDUK-1b2wr9WB-4njHSzjnR8JZDthiNsoGKc2qv34ybdh/Sailor-folio.jpg?format=1500w',
+        name: 'Nathan',
+    },
+    {
+        image: 'https://www.auto-moto.com/wp-content/uploads/sites/9/2020/01/peugeot-208-750x410.jpeg',
+        price: 24,
+        carName: 'Volkswagen Polo',
+        location: 'Saint-Pierre',
+        star: 5,
+        photo:'https://images.squarespace-cdn.com/content/v1/56262570e4b0504d6aeebeb1/1446467080252-OKA9SBZ9RWACLIM4OT1N/ke17ZwdGBToddI8pDm48kLsPaqTjviO1P47iG0SOxnB7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmaUzSiviepfuOufnJa7SEDUK-1b2wr9WB-4njHSzjnR8JZDthiNsoGKc2qv34ybdh/Sailor-folio.jpg?format=1500w',
+        name: 'Nathan',
+    },
+    {
+        image: 'https://www.auto-moto.com/wp-content/uploads/sites/9/2020/01/peugeot-208-750x410.jpeg',
+        price: 24,
+        carName: 'Volkswagen Polo',
+        location: 'Saint-Pierre',
+        star: 5,
+        photo:'https://images.squarespace-cdn.com/content/v1/56262570e4b0504d6aeebeb1/1446467080252-OKA9SBZ9RWACLIM4OT1N/ke17ZwdGBToddI8pDm48kLsPaqTjviO1P47iG0SOxnB7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmaUzSiviepfuOufnJa7SEDUK-1b2wr9WB-4njHSzjnR8JZDthiNsoGKc2qv34ybdh/Sailor-folio.jpg?format=1500w',
+        name: 'Nathan',
+    },
+]
+
+export default carsProfile;

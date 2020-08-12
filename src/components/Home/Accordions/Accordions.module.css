@@ -1,0 +1,26 @@
+.Accordion {
+    margin-bottom: 25px;
+}
+
+.Parapgraphs {
+    font-weight: 400;
+    font-size: 14px;
+    padding: 10px;
+    color: #68737d;
+    text-align: justify;
+    line-height: 2rem;
+
+}
+
+.Parapgraphs p {
+    margin-bottom: 35px;
+}
+
+.FirstParagraph {
+    margin-top: -25px;
+}
+
+.FAQ a{
+    color: #32b298;
+    text-decoration: none;
+}

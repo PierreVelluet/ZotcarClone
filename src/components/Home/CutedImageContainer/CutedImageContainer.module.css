@@ -1,0 +1,42 @@
+.CutedImageContainer {
+    display: flex;
+    margin-top: 75px;
+    margin-bottom: 35px;
+}
+
+.CutedImage {
+    height: 500px;
+    width: 65%;
+    clip-path: polygon(0 0, 100% 0%, 84% 100%, 0% 100%);
+    object-fit: cover;
+}
+
+.Text {
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 50px;
+    margin-left: 200px;
+    margin-top: 75px;
+}
+
+.Text h5 {
+    height: 120px;
+    margin-bottom: 0px;
+}
+
+.Logo {
+    color: #32b298;
+}
+
+.ColoredText {
+    font-weight: 600;
+    color: #32b298;
+}
+
+.Paragraph {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    color: #212529;
+    font-weight: 300;
+}
