@@ -9,6 +9,7 @@ import RentCar from './RentCar/RentCar';
 import CutedImageContainer from './CutedImageContainer/CutedImageContainer';
 import SmartphoneSection from './SmartphoneSection/SmartphoneSection';
 import Accordions from './Accordions/Accordions'
+import HowToRent from './HowToRentSection/HowToRent';
 
 
 
@@ -37,6 +38,7 @@ const Home = () => {
             <CutedImageContainer />
             <SmartphoneSection />
             <Accordions />
+            <HowToRent />
         </div>
     )
 }

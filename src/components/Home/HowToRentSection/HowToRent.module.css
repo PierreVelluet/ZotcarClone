@@ -1,0 +1,21 @@
+.HowToRent {
+    margin: 0px 15% 0px 15%;
+}
+
+.HowToRent h2 {
+    margin-top: 75px;
+    font-size: 2rem;
+    font-weight: 900;
+    color: #091E42;
+    line-height: 2.6rem;
+}
+
+.HowToRent p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #42526E;
+}
+
+.ColoredText {
+    color: #32b298;
+}
